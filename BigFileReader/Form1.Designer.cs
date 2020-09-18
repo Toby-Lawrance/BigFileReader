@@ -30,7 +30,6 @@
         {
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.OpenBtn = new System.Windows.Forms.Button();
-            this.SaveBtn = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.label1 = new System.Windows.Forms.Label();
             this.LineLeft = new System.Windows.Forms.NumericUpDown();
@@ -72,16 +71,6 @@
             this.OpenBtn.Text = "Open";
             this.OpenBtn.UseVisualStyleBackColor = true;
             this.OpenBtn.Click += new System.EventHandler(this.OpenBtn_Click);
-            // 
-            // SaveBtn
-            // 
-            this.SaveBtn.Location = new System.Drawing.Point(53, -1);
-            this.SaveBtn.Name = "SaveBtn";
-            this.SaveBtn.Size = new System.Drawing.Size(39, 34);
-            this.SaveBtn.TabIndex = 2;
-            this.SaveBtn.Text = "Save";
-            this.SaveBtn.UseVisualStyleBackColor = true;
-            this.SaveBtn.Click += new System.EventHandler(this.SaveBtn_Click);
             // 
             // openFileDialog1
             // 
@@ -214,7 +203,6 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.LineLeft);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.SaveBtn);
             this.Controls.Add(this.OpenBtn);
             this.Controls.Add(this.richTextBox1);
             this.Name = "Form1";
@@ -230,7 +218,6 @@
 
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button OpenBtn;
-        private System.Windows.Forms.Button SaveBtn;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.NumericUpDown LineLeft;
